@@ -8,7 +8,7 @@ const result = isDarkMode();
 // globalThis: global "this" value [we can also use 'window', 'self', etc.]
 // mediaQuery: to get the system preference settings like color-scheme,
 //             contrast value, reduction-motion, etc.
-// ?? (Nullish coalescing operator): reutn RHS value when LHS value is null or undefined
+// ?? (Nullish coalescing operator): return RHS value when LHS value is null or undefined, otherwise LHS value
 
 // NOTE: media queries can be used in CSS directly
 @media (prefers-color-scheme:dark) {
